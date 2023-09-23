@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+}
+.card-body {
+  border-width: thick;
+  border-color: rgb(98, 96, 96);
+}
+
+form {
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+.list-group-item {
+  text-align: center;
+  font-size: larger;
+}
+.card-li {
+  margin: 30px 30px;
+  padding: 15px 18px 0px 0px;
+  opacity: 70%;
+}
+.card-no {
+  color: #0b5ed7;
+  padding-right: 25px;
+}
+.cityname {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.last {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.temperature {
+  font-weight: lighter;
+  opacity: 70%;
+}
+button {
+  color: white;
+  background-color: lightskyblue;
+  border-color: lightskyblue;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: dodgerblue;
+  transition: all 200ms ease-in-out;
+}
